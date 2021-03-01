@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2048</title>
+    <link rel="stylesheet" href="node_modules/bulma/css/bulma.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class = "heading1">
+        <h1 class="title">2048</h1>
+        <div class = "score-container">
+        <h2 class ="score">Score</h2>
+        </div>
+    </div>
+    <div class ="above-game">
+        <p class="game-intro">Join the tiles, get to <b>2048!</b></p>
+        <button class = "restart">New Game</button>
+    </div>
+    <p id='winLose'>
+    <div id="game-container">
+        <div class="grid has-text-weight-semibold">
+            <span id = "board"></span>
+        </div>
+    </div>
+    <div style="width: 500px">
+        <div class="has-text-weight-normal mt-4"><b>HOW TO PLAY:</b> Use your <b>arrow keys</b> to move the tiles. Tiles with the same number <b>merge into one</b> when they touch. Add them up to reach <b>2048!</b></div>
+        <hr/>
+        <div class="has-text-weight-semibold mt-4">You’re playing a replica version of 2048. This game is a derivative of the original created by Gabriele Cirulli.</div>
+        <hr/>
+        <a href="https://www.linkedin.com/in/selena-li-74200a1a3/">Connect with me on linkedin ;)</a>
+    </div>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="engine/game.js" type="module"></script>
+    <script src="view.js" type="module"></script>
+</body>
+
+</html>

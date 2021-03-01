@@ -1,0 +1,166 @@
+* {
+    margin: 0; 
+    padding: 0;
+    font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+}
+html{
+    background-color: #FAF8EF;
+}
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #776E65;
+    margin: 50px 0;      
+}
+
+#game-container .row {
+    display: flex;
+}
+
+.grid {
+    background-color: #BBADA0;
+    padding: .4rem;
+    border-radius: 3px;
+    margin: .5rem;
+}
+.heading1{
+    display: block;
+    width: 500px;
+}
+
+.title{
+    font-size: 12vmin;
+    font-weight: bold;
+    margin: 0;
+    display: block;
+    float: left;
+    color: #776e65;
+    margin-right: 3vw;
+}
+.row div {
+    background-color: #CDC1B4;
+    color: white;
+    width: 8vw;
+    height: 8vw;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vw;
+    margin: .3rem;
+}
+
+.above-game{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+}
+.game-intro{
+    font-size: 18px;
+    line-height: 1.2;
+    margin-bottom: 0;
+    margin-right: 10px;
+}
+.score-container{
+    float: right;
+    display: flex;
+}
+.restart{
+    background: #8f7a66;
+    color: #f9f6f2;
+    padding: 14px;
+    border-radius: 3px;
+}
+.score h3{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h2, button {
+    background-color: #BBADA0;
+    color: #EDE3D9;
+    margin: .5rem;
+    padding: 0.5rem;
+    border-radius: 3px;
+    text-transform: uppercase;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    display: inline;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+#winLose{
+    font-size: 25px;
+    line-height: 5rem;
+    font-weight: bold;
+    color: red;
+    background: rgb(0, 0, 0);
+}
+.tile2 {
+    background-color: #EEE4DA !important;
+    color: #776E65 !important;
+}
+
+.tile4 {
+    background-color: #EDE0C8 !important;
+    color: #776E65 !important;
+}
+
+
+.tile8 {
+    background-color: #F2B179 !important;
+    color: #F9F6F2 !important;
+}
+
+.tile16 {
+    background-color: #F59563 !important;
+    color: #F9F6F2 !important;
+}
+
+.tile32 {
+    background-color: #F67C5F !important;
+    color: #F9F6F2 !important;
+}
+
+.tile64 {
+    background-color: #F65E3B !important;
+    color: #F9F6F2 !important;
+}
+
+.tile128 {
+    background-color: #EDCF72 !important;
+    color: #F9F6F2 !important;
+}
+
+.tile256 {
+    background-color: #edcc61 !important;
+    color: #F9F6F2 !important;
+}
+
+.tile512 {
+    background-color: #edc850 !important;
+    color: #F9F6F2 !important;
+}
+
+.tile1024 {
+    background-color: #edc53f !important;
+    color: #F9F6F2 !important;
+    font-size: 3.5vw !important;
+}
+
+.tile2048 {
+    background-color: #edc22e !important;
+    color: #F9F6F2 !important;
+    font-size: 3.5vw !important;
+}
